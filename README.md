@@ -81,8 +81,13 @@ http://localhost:5000
     The API will be available at http://localhost:5000.
 
 2. **Production Deployment**  
-   For production deployment, consider using a WSGI server (e.g., Gunicorn) behind a reverse proxy (e.g., Nginx). Follow the relevant documentation for your chosen deployment solutions to ensure best performance and security.
+In production, run the application using Gunicorn:
+gunicorn app:app
 
+### Common Issues
+- Model loading errors may occur if TensorFlow versions differ between training and deployment environments.
+- Ensure compatibility between `.h5` model files and TensorFlow versions.
+  
 ## Contributing
 If you would like to contribute to the project, please make a pull request. Ensure that your code adheres to the project’s standards and has been adequately tested.
 
