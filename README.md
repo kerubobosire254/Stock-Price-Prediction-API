@@ -25,7 +25,8 @@ The app allows users to input a stock symbol and visualize predicted trends comp
 - TensorFlow
 - Keras
 - Matplotlib  
-- Streamlit (for UI)  
+- Streamlit (for UI)
+- Flask
 
 ## Table of Contents
 - [Setup](#setup)
