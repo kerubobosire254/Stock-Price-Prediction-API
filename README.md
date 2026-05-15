@@ -1,7 +1,31 @@
-# Stock Price Prediction API
+# 📈 Stock Price Predictor App
 
-## Overview
-The Stock Price Prediction API allows users to query stock price predictions based on historical data. This API is built to provide developers with a straightforward interface to obtain price predictions for various stocks using Machine Learning techniques.
+A machine learning-powered web application that predicts stock prices based on historical market data. 
+The project explores time series forecasting techniques and presents predictions through an interactive interface.
+
+## 🔍 Project Overview
+
+This project uses machine learning techniques to analyze historical stock data and forecast future prices. 
+It is designed to demonstrate how data science can be applied in financial markets to support decision-making.
+The app allows users to input a stock symbol and visualize predicted trends compared to actual historical performance.
+
+## ⚙️ Features
+
+- 📊 Historical stock data visualization  
+- 🤖 Machine learning-based price prediction  
+- 📉 Trend forecasting over time  
+- 🖥️ Interactive user interface (Streamlit / web app)  
+- 🔄 Real-time prediction pipeline
+
+## 🧠 Tech Stack
+
+- Python   
+- Pandas & NumPy  
+- Scikit-learn
+- TensorFlow
+- Keras
+- Matplotlib  
+- Streamlit (for UI)  
 
 ## Table of Contents
 - [Setup](#setup)
